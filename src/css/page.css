@@ -1,0 +1,6 @@
+.page {
+    min-width: 94vw;
+    min-height: 95vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

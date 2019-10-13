@@ -11,8 +11,8 @@ import '../css/App.css';
 class App extends React.Component {
   render() {
     return (
-      <Router>
-        <div>
+      <Router className="app-container">
+        <div className="App">
             <Route exact path="/"  component={Home} />
             <Route path="/about"  component={About} />
             <Route path="/contact"  component={Contact} />

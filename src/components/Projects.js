@@ -1,9 +1,11 @@
 import React from 'react';
 
+import '../css/page.css';
+
 class Projects extends React.Component {
     render() {
         return (
-            <div>
+            <div className="page">
                 Projects
             </div>
         )
