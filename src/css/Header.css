@@ -6,8 +6,7 @@
     height: 30vh;
     width: 100%;
     font-family: sans-serif;
-    font-size: 24px;
-    /* border: 1px solid magenta; */
+    border: 1px solid magenta;
 }
 
 .header-section {
@@ -52,13 +51,13 @@
 
 .social-media-links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
 .widget {
-  height: 75%;
-  width: 20%;
+  height: 50px;
+  width: 50px;
   /* border: 1px solid orange; */
 }
 
@@ -83,8 +82,8 @@
 }
 
 .donate-button {
-  height: 55%;
-  width: 40%;
+  height: 75px;
+  width: 254px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,4 +91,6 @@
   background-color: #FF8E3A;
   color: #FFFFFF;
   border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
 }
