@@ -6,7 +6,7 @@
     height: 30vh;
     width: 100%;
     font-family: sans-serif;
-    border: 1px solid magenta;
+    /* border: 1px solid magenta; */
 }
 
 .header-section {
@@ -14,22 +14,27 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
-.section-half {
+/* .section-half {
   width: 50%;
   height: 75%;
-}
+} */
 
 .left {
+  width: 50%;
+  height: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid magenta; */
 }
 
 .right {
+  width: 50%;
+  height: 65%;
   display: flex; 
   justify-content: center;
   align-items: center;
