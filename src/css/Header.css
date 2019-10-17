@@ -23,8 +23,8 @@
 } */
 
 .left {
-  width: 50%;
-  height: 75%;
+  /* width: 50%;
+  height: 75%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,11 +60,11 @@
   align-items: center;
 }
 
-.widget {
+/* .widget {
   height: 50px;
-  width: 50px;
-  /* border: 1px solid orange; */
-}
+  width: 50px; 
+  border: 1px solid orange;
+} */
 
 .facebook {
   background-image: url('../images/icons8-facebook-circled-48.png');
@@ -87,15 +87,15 @@
 }
 
 .donate-button {
-  height: 75px;
-  width: 254px;
+  /* height: 75px;
+  width: 254px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #FF8E3A;
   color: #FFFFFF;
-  border-radius: 10px;
-  font-size: 24px;
+  /* border-radius: 10px;
+  font-size: 24px; */
   font-weight: bold;
 }
