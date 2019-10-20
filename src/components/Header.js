@@ -28,10 +28,10 @@ class Header extends React.Component {
                   </div>
                   <div className="section-half right">
                      <div className="social-media-links general">
-                       <div className="widget facebook" style={this.state.widgetStyle}></div>
-                       <div className="widget twitter" style={this.state.widgetStyle}></div>
-                       <div className="widget youtube" style={this.state.widgetStyle}></div>
-                       <div className="widget instagram" style={this.state.widgetStyle}></div>
+                       <a href="https://facebook.com" target="_blank" style={this.state.widgetStyle}><p className="widget facebook"></p></a>
+                       <a href="https://twitter.com" target="_blank" style={this.state.widgetStyle}><p className="widget twitter"></p></a>
+                       <a href="https://youtube.com" target="_blank" style={this.state.widgetStyle}><p className="widget youtube"></p></a>
+                       <a href="https://instagram.com" target="_blank" style={this.state.widgetStyle}><p className="widget instagram"></p></a>
                      </div>
                      <div className="donate-button" style={this.state.buttonStyle}>Donate</div>
                   </div>
