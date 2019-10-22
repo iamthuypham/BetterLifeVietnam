@@ -7,6 +7,7 @@ import Contact from './Contact.js';
 import Projects from './Projects.js';
 import Header from './Header.js';
 import Navbar from './Navbar.js';
+import Help from './Help.js';
 
 import '../css/App.css';
 
@@ -19,6 +20,7 @@ class App extends React.Component {
             <Navbar />
             <Route exact path="/"  component={Home} />
             <Route path="/about"  component={About} />
+            <Route path="/help" component={Help} />
             <Route path="/contact"  component={Contact} />
             <Route path="/projects"  component={Projects} />
         </div>
