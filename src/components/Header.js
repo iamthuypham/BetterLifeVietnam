@@ -24,14 +24,14 @@ class Header extends React.Component {
             <div className="header">
                 <div className="header-section">
                   <div className="section-half left" style={this.state.leftHalfStyle}>
-                      <div className="logo"></div>
+                      <a href="/" className="logo"></a>
                   </div>
                   <div className="section-half right">
                      <div className="social-media-links general">
-                       <a href="https://facebook.com" target="_blank" style={this.state.widgetStyle}><p className="widget facebook"></p></a>
-                       <a href="https://twitter.com" target="_blank" style={this.state.widgetStyle}><p className="widget twitter"></p></a>
-                       <a href="https://youtube.com" target="_blank" style={this.state.widgetStyle}><p className="widget youtube"></p></a>
-                       <a href="https://instagram.com" target="_blank" style={this.state.widgetStyle}><p className="widget instagram"></p></a>
+                       <a href="https://facebook.com" className="widget facebook" target="_blank" style={this.state.widgetStyle}></a>
+                       <a href="https://twitter.com" className="widget twitter" target="_blank" style={this.state.widgetStyle}></a>
+                       <a href="https://youtube.com" className="widget youtube" target="_blank" style={this.state.widgetStyle}></a>
+                       <a href="https://instagram.com" className="widget instagram" target="_blank" style={this.state.widgetStyle}></a>
                      </div>
                      <div className="donate-button" style={this.state.buttonStyle}>Donate</div>
                   </div>
