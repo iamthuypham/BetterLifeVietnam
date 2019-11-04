@@ -40,24 +40,32 @@ const MainHeader = () => {
 };
 
 const MobileHeader = () => {
-    return (
-        <div className="mobile-header">
-            <div className="mobile-header-section">
-                <a href="/" className="mobile-logo"></a>
-            </div>
+  return (
+    <div className="mobile-header">
+      <div className="mobile-header-section left">
+        <a href="/" className="mobile-logo"></a>
+      </div>
+      <div className="mobile-header-section right">
+        <div className="burger-menu">
+          <div className="burger-strip"></div>
+          <div className="burger-strip"></div>
+          <div className="burger-strip"></div>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
 class Header extends React.Component {
-    state = {
-        mobile: window.innerWidth > 500
-    }
-    render() {
-        return (
-            <MainHeader/>
-        )
-    }
+  state = {
+    view: window.innerWidth > 400 ? <MainHeader/> : <MobileHeader/>
+  };
+  render() {
+    const view = this.state.view;
+    return (
+      view
+    );
+  }
 }
 
 export default Header;
