@@ -8,11 +8,15 @@ class Home extends React.Component {
     console.log("window.innerHeight: ", window.innerHeight);
   }
   render() {
-    return <div 
-              className="home"
-              onClick={this.windowInfo}
+    return (
+      <div className="home-strip">
+        <div 
+              className="home-img"
+              // onClick={this.windowInfo}
            >
-          </div>;
+          </div>
+      </div>
+    )
   }
 }
 

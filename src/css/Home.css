@@ -1,6 +1,6 @@
-.home {
+.home-img {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: flex-start;
     width: 98.6vw;
