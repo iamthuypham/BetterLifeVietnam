@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
-import Home from './Home.js';
+import Main from './Main.js';
 import About from './About.js';
 import Contact from './Contact.js';
 import Projects from './Projects.js';
@@ -18,7 +18,7 @@ class App extends React.Component {
         <div className="App">
             <Header />
             <Navbar />
-            <Route exact path="/"  component={Home} />
+            <Route exact path="/"  component={Main} />
             <Route path="/about"  component={About} />
             <Route path="/help" component={Help} />
             <Route path="/contact"  component={Contact} />
