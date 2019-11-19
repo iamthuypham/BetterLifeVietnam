@@ -23,12 +23,14 @@ class Main extends React.Component {
             Working to improve education conditions 
             for underprivileged children and youth in Vietnam.
           </div>
-          <div className='home-section-strip' />
-          <div className='home-section-logos'>
-            <div className='sponsor-logo' />
-            <div className='sponsor-logo' />
-            <div className='sponsor-logo' />
-            <div className='sponsor-logo' />
+          <div className='home-section-strip'>
+            Sponsors
+          </div>
+          <div className='logos'>
+            <div className="whatthefuck">Hi!</div>
+            <div className="whatthefuck">Hi!</div>
+            <div className="whatthefuck">Hi!</div>
+            <div className="whatthefuck">Hi!</div>
           </div>
         </div>
       </div>
@@ -36,4 +38,4 @@ class Main extends React.Component {
   }
 }
 
-export default Main
+export default Main;
