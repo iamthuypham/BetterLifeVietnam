@@ -17,13 +17,19 @@ class Main extends React.Component {
     return (
       <div className='main-strip'>
         <div className='home-img' />
-        <div className='home-section'>
-          <div className='home-section-strip mission'>Our Mission</div>
-          <div className='home-section-strip' >
+        <div className='section'>
+          <div className='home-section-strip bold-style'>Our Mission</div>
+          <div className='home-section-strip education' >
+            <div className="quotation-mark">
+              "
+            </div>
             Working to improve education conditions 
             for underprivileged children and youth in Vietnam.
+            <div className="quotation-mark">
+              "
+            </div>
           </div>
-          <div className='home-section-strip sponsers'>
+          <div className='home-section-strip bold-style'>
             Sponsors
           </div>
           <div className='home-logos'>
@@ -32,6 +38,9 @@ class Main extends React.Component {
             <div className="home-logo water-for-all"></div>
             <div className="home-logo Viet-Dan-travel"></div>
           </div>
+        </div>
+        <div className="section">
+          
         </div>
       </div>
     )
