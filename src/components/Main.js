@@ -18,19 +18,19 @@ class Main extends React.Component {
       <div className='main-strip'>
         <div className='home-img' />
         <div className='home-section'>
-          <div className='home-section-strip'>Our Mission</div>
+          <div className='home-section-strip mission'>Our Mission</div>
           <div className='home-section-strip' >
             Working to improve education conditions 
             for underprivileged children and youth in Vietnam.
           </div>
-          <div className='home-section-strip'>
+          <div className='home-section-strip sponsers'>
             Sponsors
           </div>
-          <div className='logos'>
-            <div className="whattheheck">Hi!</div>
-            <div className="whattheheck">Hi!</div>
-            <div className="whattheheck">Hi!</div>
-            <div className="whattheheck">Hi!</div>
+          <div className='home-logos'>
+            <div className="home-logo hilton"></div>
+            <div className="home-logo hilton-opera"></div>
+            <div className="home-logo water-for-all"></div>
+            <div className="home-logo Viet-Dan-travel"></div>
           </div>
         </div>
       </div>
