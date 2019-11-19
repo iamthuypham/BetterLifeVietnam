@@ -27,10 +27,10 @@ class Main extends React.Component {
             Sponsors
           </div>
           <div className='logos'>
-            <div className="whatthefuck">Hi!</div>
-            <div className="whatthefuck">Hi!</div>
-            <div className="whatthefuck">Hi!</div>
-            <div className="whatthefuck">Hi!</div>
+            <div className="whattheheck">Hi!</div>
+            <div className="whattheheck">Hi!</div>
+            <div className="whattheheck">Hi!</div>
+            <div className="whattheheck">Hi!</div>
           </div>
         </div>
       </div>
