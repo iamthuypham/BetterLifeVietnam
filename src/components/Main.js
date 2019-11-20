@@ -16,7 +16,12 @@ class Main extends React.Component {
   render () {
     return (
       <div className='main-strip'>
-        <div className='home-img' />
+        <div className='home-img'>
+          <div className="tagline-button-container">
+            <div className="tagline">Tag line</div>
+            <div className="learn-more">Learn More</div>
+          </div>
+        </div>
         <div className='section'>
           <div className='home-section-strip bold-style'>Our Mission</div>
           <div className='home-section-strip education' >
