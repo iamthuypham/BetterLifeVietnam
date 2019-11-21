@@ -34,6 +34,7 @@ class Main extends React.Component {
               "
             </div>
           </div>
+          <div className="home-section-strip"></div>
           <div className='home-section-strip bold-style'>
             Sponsors
           </div>
