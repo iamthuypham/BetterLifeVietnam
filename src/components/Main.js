@@ -1,18 +1,23 @@
 import React from 'react'
 
+// sections of Main strip:
+import Section from './Section.js';
+
 import '../css/Main.css'
-// okay so let's try something here...
-// going for a single strip -> Main
-// links will redirect to corresponding points on
-// Main strip -> so let's import one and see...
-// okay so that worked--with the exact effect I wanted
-// perhaps a bit convoluted but then again we can
-// always fix later
+
+// import generic section component here to instantiate multiple times
+// passing every instance the unique props needed for the specific sections
+
 class Main extends React.Component {
-  windowInfo = () => {
+  displayWindowInfo = () => {
     console.log('window.innerWidth: ', window.innerWidth)
     console.log('window.innerHeight: ', window.innerHeight)
   }
+
+  // needs to be cleaned up -> should only render() 
+  // https://stackoverflow.com/questions/59188624/template-not-provided-using-create-react-app
+  // https://stackoverflow.com/questions/31079081/programmatically-navigate-using-react-router?rq=1
+  // https://stackoverflow.com/questions/22876978/loop-inside-react-jsx?rq=1
   render () {
     return (
       <div className='main-strip'>
@@ -45,9 +50,9 @@ class Main extends React.Component {
             <div className="home-logo Viet-Dan-travel"></div>
           </div>
         </div>
-        <div className="section">
-          
-        </div>
+        <Section/>
+        <Section/>
+        <Section/>
       </div>
     )
   }

@@ -2,14 +2,14 @@ import React from 'react';
 
 import '../css/Header.css';
 
-const MainHeader = () => {
+const Header = () => {
   return (
     <div className="header">
       <div className="header-section">
-        <div className="section-half left">
+        <div className="left">
           <a href="/" className="logo"></a>
         </div>
-        <div className="section-half right">
+        <div className="right">
           <div className="social-media-links general">
             <a
               href="https://facebook.com"
@@ -39,33 +39,33 @@ const MainHeader = () => {
   );
 };
 
-const MobileHeader = () => {
-  return (
-    <div className="mobile-header">
-      <div className="mobile-header-section left">
-        <a href="/" className="mobile-logo"></a>
-      </div>
-      <div className="mobile-header-section right">
-        <div className="burger-menu">
-          <div className="burger-strip"></div>
-          <div className="burger-strip"></div>
-          <div className="burger-strip"></div>
-        </div>
-      </div>
-    </div>
-  );
-};
+// const MobileHeader = () => {
+//   return (
+//     <div className="mobile-header">
+//       <div className="mobile-header-section left">
+//         <a href="/" className="mobile-logo"></a>
+//       </div>
+//       <div className="mobile-header-section right">
+//         <div className="burger-menu">
+//           <div className="burger-strip"></div>
+//           <div className="burger-strip"></div>
+//           <div className="burger-strip"></div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
-class Header extends React.Component {
-  state = {
-    view: window.innerWidth > 400 ? <MainHeader/> : <MobileHeader/>
-  };
-  render() {
-    const view = this.state.view;
-    return (
-      view
-    );
-  }
-}
+// class Header extends React.Component {
+//   state = {
+//     view: window.innerWidth > 400 ? <MainHeader/> : <MobileHeader/>
+//   };
+//   render() {
+//     const view = this.state.view;
+//     return (
+//       view
+//     );
+//   }
+// }
 
 export default Header;
