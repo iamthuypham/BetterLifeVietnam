@@ -1,0 +1,12 @@
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff8e3a;
+  color: #ffffff;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 28px;
+}

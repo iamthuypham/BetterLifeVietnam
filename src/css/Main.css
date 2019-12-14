@@ -45,7 +45,7 @@
   /* border: 1px solid red; */
 }
 
-.learn-more {
+/* .learn-more {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,7 +58,7 @@
   height: 75px;
   background-color: #FF8E3A;
   border-radius: 10px;
-}
+} */
 
 .section {
     width: 100%;

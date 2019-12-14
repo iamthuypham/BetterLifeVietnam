@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Button from './Button.js';
+
 import '../css/Header.css';
 
 const Header = () => {
@@ -32,7 +34,11 @@ const Header = () => {
               target="_blank"
             ></a>
           </div>
-          <div className="donate-button">Donate</div>
+          <Button extraStyle={{
+            height: '75px',
+            width: '254px',
+            fontSize: '20px'
+          }} title={`Donate`} />
         </div>
       </div>
     </div>

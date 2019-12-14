@@ -84,7 +84,7 @@
   background-size: 100% 100%;
 }
 
-.donate-button {
+/* .donate-button {
   height: 75px;
   width: 254px;
   display: flex;
@@ -96,7 +96,7 @@
   border-radius: 10px;
   font-weight: bold;
   font-size: 20px;
-}
+} */
 
 .mobile-header {
   display: flex;

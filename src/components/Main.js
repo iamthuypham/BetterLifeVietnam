@@ -2,8 +2,11 @@ import React from 'react'
 
 // sections of Main strip:
 import Section from './Section.js';
+import Button from './Button.js';
 
 import '../css/Main.css'
+const title = "I am a Title"
+const content = "This is some content"
 
 // import generic section component here to instantiate multiple times
 // passing every instance the unique props needed for the specific sections
@@ -24,7 +27,11 @@ class Main extends React.Component {
         <div className='home-img'>
           <div className="tagline-button-container">
             <div className="tagline">Tag line</div>
-            <div className="learn-more">Learn More</div>
+            <Button extraStyle={{
+              height: '75px',
+              width: '100%',
+              fontSize: '32px'
+            }} title={`Learn More`}/>
           </div>
         </div>
         <div className='section'>
@@ -50,9 +57,10 @@ class Main extends React.Component {
             <div className="home-logo Viet-Dan-travel"></div>
           </div>
         </div>
+        <Section title={title} content={content}/>
         <Section/>
         <Section/>
-        <Section/>
+        <Button/>
       </div>
     )
   }
