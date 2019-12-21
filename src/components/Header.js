@@ -1,6 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import '../css/Header.css';
+import "../css/Header.css";
+
+import Button from "@material-ui/core/Button";
 
 const MainHeader = () => {
   return (
@@ -35,6 +37,9 @@ const MainHeader = () => {
           <div className="donate-button">Donate</div>
         </div>
       </div>
+      <Button size="medium" color="secondary" variant="contained">
+        MU Button
+      </Button>
     </div>
   );
 };
@@ -58,13 +63,11 @@ const MobileHeader = () => {
 
 class Header extends React.Component {
   state = {
-    view: window.innerWidth > 400 ? <MainHeader/> : <MobileHeader/>
+    view: window.innerWidth > 400 ? <MainHeader /> : <MobileHeader />
   };
   render() {
     const view = this.state.view;
-    return (
-      view
-    );
+    return view;
   }
 }
 
