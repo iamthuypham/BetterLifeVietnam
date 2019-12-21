@@ -1,6 +1,9 @@
 import React from 'react';
 import '../css/Section.css';
 
+// consider importing SponsorLogo in here and passing props that way for imgs
+// good little coding session -> we will do more later
+
 // need to create Hero section -> props title buttonCTA (Call To Action)
 // first section of every page/new section
 
@@ -15,10 +18,11 @@ class Section extends React.Component {
 
     render() {
         return (
-            // <div className="Section">Section</div>
-            <div>
-                <div className="title">{this.props.title}</div>
-                <div classNme="content">{this.props.content}</div>
+            <div className="Section">
+                <div className="content title">{this.props.title}</div>
+                <div className="content">{this.props.content.map((item) => {
+                    return <fragment>{item}</fragment>
+                })}</div>
             </div>
         )
     }

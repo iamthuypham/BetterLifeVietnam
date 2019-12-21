@@ -26,8 +26,8 @@ import '../css/Button.css';
 class Button extends React.Component {
     render() {
         return (
-            <div className="button" style={this.props.extraStyle}>
-                <div className="title">{this.props.title}</div>
+            <div className="button">
+                <div className="title" style={this.props.extraStyle}>{this.props.title}</div>
             </div>
         )
     }
